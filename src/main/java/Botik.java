@@ -97,7 +97,7 @@ public class Botik extends TelegramLongPollingBot {
 
     public String getBotToken()
     {
-        return "5145868152:AAHOZjjGVylBK-rOY2uUkcacUWTi-5_Qa3c";
+        return "";
     }
 
 

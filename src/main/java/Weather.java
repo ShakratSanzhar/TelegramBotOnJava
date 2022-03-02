@@ -19,7 +19,7 @@ public class Weather {
         {
             connection = (HttpURLConnection) new URL(url).openConnection();
             connection.setRequestMethod("GET");
-            connection.setRequestProperty("X-Yandex-API-Key","90c31916-0f2b-4024-ba5b-457b49028175");
+            connection.setRequestProperty("X-Yandex-API-Key","");
         }
         catch(ProtocolException e)
         {

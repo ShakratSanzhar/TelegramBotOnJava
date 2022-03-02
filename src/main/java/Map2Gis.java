@@ -9,7 +9,7 @@ import java.net.URL;
 public class Map2Gis {
     public static Double[] getCoordinate(String name, Model2Gis model) throws IOException
     {
-        String url = "https://catalog.api.2gis.com/3.0/items/geocode?q="+name+"&fields=items.point&key=rusxwe7973";
+        String url = "https://catalog.api.2gis.com/3.0/items/geocode?q="+name+"&fields=items.point&key=";
         HttpURLConnection connection = null;
         connection = (HttpURLConnection) new URL(url).openConnection();
         connection.setRequestMethod("GET");
